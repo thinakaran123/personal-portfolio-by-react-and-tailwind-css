@@ -32,7 +32,7 @@ return <section>
 {togglenav && 
         <nav className="pr-5 p-2 block md:hidden fade-out"> 
             <ul className="flex gap-4 justify-end flex-col text-left text-2xl ">
-                <li className="hover:text-coral cursor-pointer"><a href='/'>Home</a></li>
+                <li className="hover:text-coral cursor-pointer"><a href='#hero'>Home</a></li>
                 <li className="hover:text-coral cursor-pointer"><a href='#projects'>Projects</a></li>
                 <li className="hover:text-coral cursor-pointer"><a href='#about'>About</a></li>
                 <li className="hover:text-coral cursor-pointer"><a href='#contact'>Contact</a></li>
