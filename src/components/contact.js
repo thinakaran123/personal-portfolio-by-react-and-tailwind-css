@@ -8,7 +8,7 @@ export default function Contact(){
       };
     return <section id="contact" className="flex gap-10 flex-col justify-items-center pb-96 items-center pl-16 md:pl-32 md:pr-32 pr-16 pt-96 md:pt-96 w-[100%] h-full">
             <button onClick={openEmailClient} className="text-white border-2 border-white p-3 rounded-xl hover:bg-white hover:text-black text-xl">Let's Talk</button>
-            <a download="CV.pdf" href="../../THINAKARAN.pdf" className="text-white border-2 border-white p-3  rounded-xl hover:bg-white hover:text-black text-xl">Get CV/Resume </a>
+            <a download="CV.pdf" href="THINAKARAN.pdf" className="text-white border-2 border-white p-3  rounded-xl hover:bg-white hover:text-black text-xl">Get CV/Resume </a>
           
             <div className="flex gap-4">
             <a  className="cursor-pointer" href="https://github.com/thinakaran123" target="_blank"><img className="cursor-pointer" src={github}/></a>
