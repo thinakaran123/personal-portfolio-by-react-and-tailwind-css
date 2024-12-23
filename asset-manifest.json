@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio-by-react-and-tailwind-css/static/css/main.4809d2e6.css",
+    "main.js": "/personal-portfolio-by-react-and-tailwind-css/static/js/main.e52eee8f.js",
+    "static/media/thinaafeproject.png": "/personal-portfolio-by-react-and-tailwind-css/static/media/thinaafeproject.9676c5593456553b29fc.png",
+    "static/media/aboutme.png": "/personal-portfolio-by-react-and-tailwind-css/static/media/aboutme.2057bb924dfe8edf0a13.png",
+    "static/media/Airticketbooking site.png": "/personal-portfolio-by-react-and-tailwind-css/static/media/Airticketbooking site.885b8e4ba48b5d799db4.png",
+    "static/media/heroimg.jpeg": "/personal-portfolio-by-react-and-tailwind-css/static/media/heroimg.399aebef7ad2e9c8e474.jpeg",
+    "static/media/databaseproject.png": "/personal-portfolio-by-react-and-tailwind-css/static/media/databaseproject.3894e2b5050dbcc41bfc.png",
+    "index.html": "/personal-portfolio-by-react-and-tailwind-css/index.html",
+    "main.4809d2e6.css.map": "/personal-portfolio-by-react-and-tailwind-css/static/css/main.4809d2e6.css.map",
+    "main.e52eee8f.js.map": "/personal-portfolio-by-react-and-tailwind-css/static/js/main.e52eee8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4809d2e6.css",
+    "static/js/main.e52eee8f.js"
+  ]
+}
