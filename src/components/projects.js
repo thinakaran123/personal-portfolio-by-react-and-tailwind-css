@@ -38,7 +38,7 @@ projects:[{
           <p className="absolute top-5 left-16 text-2xl text-white hidden group-hover:block bg-opacity-50  rounded">
             {project.name}
           </p>
-          <button className="absolute text-black bottom-8 left-28  bg-white border-white border-2 group-hover:block p-1 hidden">View Project</button>
+         <a href={project.githublink} target="_blank"><button className="absolute text-black bottom-8 left-28  bg-white border-white border-2 group-hover:block p-1 hidden">View Project</button></a>
       
         </div>
       </div>
