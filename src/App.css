@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  20%{
+    opacity: 0.3;
+  }
+
+  50%{
+    opacity: 0.6;
+  }
+  70%{
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 2s ease-in-out forwards; /* 2s duration, ease-out timing */
+}
+
+
+/* mmmmm */
+section #heroimg {
+
+  border: 2px solid white;
+
+  animation: borderchange 8s ease-in-out infinite;
+  
+
+  border-radius: 60% 40% 30% 70%/ 60% 60% 70% 50%;
+ 
+}
+
+/* borderchange animation around display image */
+@keyframes borderchange {
+  0% {
+    border-radius: 50% 30% 20% 40% / 70% 50% 30% 60%;
+  }
+  25% {
+    border-radius: 10% 50% 50% 10% / 35% 25% 60% 90%;
+  }
+  50% {
+    border-radius: 80% 20% 70% 50% / 40% 30% 90% 50%;
+  }
+  75% {
+    border-radius: 10% 25% 80% 5%/15% 25% 45% 75%;
+  }
+  80% {
+    border-radius: 60% 40% 40% 80% / 60% 20% 70% 60%;
+  }
+  100% {
+    border-radius: 30% 25% 90% 40% / 50% 60% 40% 70%;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
